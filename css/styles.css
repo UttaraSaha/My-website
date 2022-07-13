@@ -76,8 +76,8 @@ p{
 }
 .bottom_cloud{
   position:absolute;
-  left:250px;
-  bottom:270px;
+  left:170px;
+  top:240px;
 }
 .contact-me{
 margin: 30px auto;
@@ -101,8 +101,8 @@ width: 40%;
 }
 .right_cloud{
   position:absolute;
-  right:200px;
-  bottom:100px;
+  right:150px;
+  bottom:230px;
 }
 .Skills{
   margin-top: 50px;
@@ -126,8 +126,8 @@ width: 40%;
 .sun{
   width:20%;
   position:absolute;
-  left: 170px;
-  top:50px;
+  left: 120px;
+  top:20px;
 }
 .top_container{
   background-color:#E8A0BF;
@@ -142,3 +142,4 @@ width: 40%;
 top:20px;
   right:350px;
 }
+
