@@ -1,0 +1,143 @@
+
+body{
+  margin:0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+}
+h1{
+  font-size: 500%;/*specifying px will lead to fixed size..to make it dynamic we use percentage
+  100% is 16px ..calculate using it. We can also use 'em', 1em is 16px so 5em =80px. But em get effected by the font size
+  of the parent so to avoid this we should use 'rem' */
+      margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #937DC2;
+
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: #937DC2;
+  font-weight: normal;
+}
+h3{
+  color:#C689C6;
+}
+
+a{
+  color:#C689C6;
+  padding:10px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+hr{
+  border-style: dotted;
+  width: 7%;
+  border-width: 7px;
+  border-bottom: 0;
+  border-color: #EAF6F6;
+}
+p{
+  line-height: 2;
+}
+.btn {
+  background: #C689C6;
+  background-image: -webkit-linear-gradient(top, #C689C6,  #937DC2);
+  background-image: -moz-linear-gradient(top, #C689C6,  #937DC2);
+  background-image: -ms-linear-gradient(top, #C689C6,  #937DC2);
+  background-image: -o-linear-gradient(top, #C689C6,  #937DC2);
+  background-image: linear-gradient(to bottom, #C689C6,  #937DC2);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #E8A0BF;
+  background-image: -webkit-linear-gradient(top, #E8A0BF, #C689C6);
+  background-image: -moz-linear-gradient(top, #E8A0BF, #C689C6);
+  background-image: -ms-linear-gradient(top, #E8A0BF, #C689C6);
+  background-image: -o-linear-gradient(top, #E8A0BF, #C689C6);
+  background-image: linear-gradient(to bottom, #E8A0BF, #C689C6);
+  text-decoration: none;
+}
+
+.bottom-container{
+  padding: 50px;
+  background-color: #E8A0BF;
+}
+.bottom_cloud{
+  position:absolute;
+  left:250px;
+  bottom:270px;
+}
+.contact-me{
+margin: 30px auto;
+width: 40%;
+}
+.footer{
+  color: #EAF6F6;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
+.intro{
+  margin: auto;
+  width:30%;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.profile{
+  margin-bottom: 50px;
+}
+.right_cloud{
+  position:absolute;
+  right:200px;
+  bottom:100px;
+}
+.Skills{
+  margin-top: 50px;
+}
+.skill-row{
+  margin:50px ;
+  display:inline-block;
+  width: 50%;
+  text-align: left;
+}
+.skill-img1{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img2{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.sun{
+  width:20%;
+  position:absolute;
+  left: 170px;
+  top:50px;
+}
+.top_container{
+  background-color:#E8A0BF;
+  /*height:200px;
+  width:200px;*/
+  padding-top: 100px;
+}
+
+.top_cloud{
+  position: absolute;
+top:20px;
+  right:350px;
+}
