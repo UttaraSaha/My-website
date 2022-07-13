@@ -131,6 +131,7 @@ width: 40%;
 }
 .top_container{
   background-color:#E8A0BF;
+  position: relative;
   /*height:200px;
   width:200px;*/
   padding-top: 100px;
